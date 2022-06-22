@@ -259,7 +259,9 @@ nav{
     cursor: pointer;
     font-size: 1.1rem;
 }
-
+.content-box {
+    font-family: 'Poppins', sans-serif;
+}
 .content-precis {
     font-family: 'Poppins', sans-serif;
 }
