@@ -366,6 +366,7 @@ nav{
     justify-content: space-between;
     font-family: 'Lexend', sans-serif;
     margin-top: 5%;
+    color: rgba(0, 0, 0, 0.658);
 }
 .lorem-text ul{
     list-style: none;
@@ -518,15 +519,15 @@ nav{
     margin-top: 32px;
 }
 .gauche{
-    height: 22px;
-    width: 33px;
+    height: 26;
+    width: 38px;
     border: 2px solid rgba(0, 0, 0, 0.322);
     font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
 }
 .droite{
-    height: 22px;
-    width: 33px;
+    height: 26px;
+    width: 38px;
     border: 2px solid rgba(0, 0, 0, 0.322);
     font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
@@ -541,11 +542,11 @@ nav{
 }
 .droite img{
     height: 25px;
-    width: 38px;
+    width: 30px;
 }
 .gauche img{
     height: 25px;
-    width: 38px;
+    width: 30px;
     transform: rotate(180deg);
 }
 .back{
