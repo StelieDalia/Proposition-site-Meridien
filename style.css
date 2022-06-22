@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Lexend&family=Poppins&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ nav ul li{
 nav a{
     text-decoration: none;
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.4rem;
 }
 .onglet{
@@ -48,7 +48,7 @@ nav a:hover{
     background: black;
     color: white;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-weight: bolder;
     font-size: 15px;
 
@@ -123,7 +123,7 @@ nav{
     flex-direction: column;
     margin-top: 4px;
     margin-left: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     position: relative;
     
 }
@@ -199,7 +199,7 @@ nav{
     
 }
 .discount span{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     width: 226px;
 }
 .discount span strong{
@@ -220,22 +220,25 @@ nav{
 
 }
 .content-text h2{
-    font-size: 3.9rem;
+    font-size: 3.7rem;
 }
 .content-text p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
 }
-.content-text h2{
+.content-text2 h2{
     font-size: 3.9rem;
     margin-bottom: 1rem;  
 }
-.content-text p{
-    font-family: 'Poppins', sans-serif;
+.content-text2 p{
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
-    line-height: 1rem;
     margin-bottom: 4rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
 }
 .items{
     width: 99%;
@@ -247,23 +250,29 @@ nav{
     width: 130px;
     background-color: transparent;
     border: 2px solid black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.1em;
 }
 .btn-box button:hover{
     background: black;
     color: white;
     border: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-family: 'Lexend', sans-serif;
+    font-weight: normal;
     cursor: pointer;
     font-size: 1.1rem;
 }
 .content-box {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
 .content-precis {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
+}
+.content-precis p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
 }
 .items-box{
     display: flex;
@@ -278,7 +287,7 @@ nav{
 }
 .smart-tv span{
     margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
 
 }
 .cercle{
@@ -317,7 +326,7 @@ nav{
     height: 140px;
     width: 24%;
     border: 2px solid black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
 
 }
@@ -348,14 +357,14 @@ nav{
     width: 43%;
 }
 .poppins{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 2rem;
 }
 .lorem-text{
     display: flex;
     width: 90%;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     margin-top: 5%;
 }
 .lorem-text ul{
@@ -387,7 +396,7 @@ nav{
     height: 45px;
     width: 19%;
     border: 2px solid black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
 }
 .services2{
@@ -403,7 +412,7 @@ nav{
 }
 .detail{
     margin-top: 1.6rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
     width: 350px;
     line-height: 2rem;
@@ -415,8 +424,7 @@ nav{
 
 .offre{
     height: 500px;
-    width: 386
-    px;
+    width: 386px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -469,18 +477,18 @@ nav{
     margin-top: 3rem;
 }
 .Content2 h2{
-    font-size: 3.9rem;
+    font-size: 4rem;
     margin-bottom: 7.5rem;
+    margin-top: 6%;
 }
 .Content2 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
     
 }
 .detail2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
- 
     line-height: 2rem;
     color: rgba(0, 0, 0, 0.658);
 }
@@ -491,7 +499,7 @@ nav{
     font-size: 1.3rem;
 }
 .nom{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
 }
 .bottom{
@@ -513,14 +521,14 @@ nav{
     height: 22px;
     width: 33px;
     border: 2px solid rgba(0, 0, 0, 0.322);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
 }
 .droite{
     height: 22px;
     width: 33px;
     border: 2px solid rgba(0, 0, 0, 0.322);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.3rem;
     background-color: #000;
     margin-left: 7px;
@@ -591,7 +599,7 @@ nav{
     list-style-type: none;
     line-height: 3rem;
     font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     
 
 }
@@ -607,15 +615,16 @@ footer{
     padding-left: 4rem;
     width: 50%;
 }
-.form h2{
-    font-size: 3.9rem;
+.formule h2{
+    font-size: 3.5rem;
     width: 100%;
-    text-align: center;
+    justify-content: flex-start;
     margin-bottom: 1rem;
 }
-.form p{
-    font-family: 'Poppins', sans-serif;
+.formule p{
+    font-family: 'Lexend', sans-serif;
     font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.658);
 }
 .form{
     display: flex;
@@ -627,7 +636,7 @@ footer{
     height: 45px;
     width: 48%;
     border: 2px solid black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 1.1rem;
 }
 .recto3 input{
@@ -638,11 +647,11 @@ footer{
     outline: none;
     text-align: center;
     font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
 .recto3 input::placeholder{
     font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
     color: black;
 }
 .changer .gauche {
