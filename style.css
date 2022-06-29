@@ -1,0 +1,1453 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Lexend&family=Poppins&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.gras{
+    font-weight: 600;
+}
+.centrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.col{
+    display: flex;
+    flex-direction: column ;
+}
+.border{
+    border-right: 1px solid black;
+}
+nav ul{
+    display: flex;
+    width: 38rem;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.4rem;
+}
+.onglet{
+    width: 100px
+}
+nav a:hover{
+    font-weight: 600;
+}
+.pointer{
+    cursor: pointer;
+}
+.btn{
+    width: 110px;
+    height: 50px;
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.btn:hover{
+    width: 110px;
+    height: 50px;
+    border: 2px solid black;
+    background: transparent;
+    border: 2px solid;
+    color: black;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 60px 0 60px;
+    height: 10vh;
+}
+.section1{
+    position: relative;
+    margin-top: 2.5rem;
+    height: 90vh;
+}
+.texte-box{
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 380px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 68px;
+    justify-content: end;
+    padding-top: 30px;
+}
+.texte-box span{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+} 
+.texte-box button{
+    margin-left: 2rem;
+}
+.head{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(image\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.box-date{
+    width: 630px;
+    height: 110px;
+    background: white;
+    opacity: 89%;
+    border: 1px solid #b6b6b6;
+    display: flex;
+    
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-left: 8px;
+    font-family: 'Lexend', sans-serif;
+    position: relative;
+    
+}
+.pos{
+    position: absolute;
+    top:50%;
+    font-size: 14px;
+
+}
+
+.box label{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.box label img{
+    height: 30px;
+    width: 30px;
+}
+.date input{
+    border: 1px solid white;
+    cursor: default; 
+    outline: none; 
+    width: 120px; 
+
+}
+.box{
+    width: 210px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    background: #FBF7F4;
+    height: 150vh;
+    width: 100%;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lit-box{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.box-left{
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lit-box .box-left .chambre{
+    height: 370px;
+    width: 563px;
+    position: relative;
+}
+.discount{
+    position: absolute;
+    height: 190px;
+    width: 275px;
+    background-color: rgba(255, 255, 255, 0.808);
+    bottom: 0;
+    border-left: 5px solid #E79434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.discount span{
+    font-family: 'Lexend', sans-serif;
+    width: 226px;
+}
+.discount span strong{
+    font-size: 3rem;
+}
+.box-right{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.content-text h2{
+    font-size: 3.7rem;
+}
+.content-text p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.content-text2 h2{
+    font-size: 3.9rem;
+    margin-bottom: 1rem;  
+}
+.content-text2 p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.items{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box button{
+    height: 60px;
+    width: 130px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.1em;
+}
+.btn-box button:hover{
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Lexend', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.content-box {
+    font-family: 'Lexend', sans-serif;
+}
+.content-precis {
+    font-family: 'Lexend', sans-serif;
+}
+.content-precis p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.items-box{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.smart-tv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.smart-tv span{
+    margin-top: 1rem;
+    font-family: 'Lexend', sans-serif;
+
+}
+.cercle{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid #E79434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotation{
+    transform: rotate(45deg);
+}
+.cercle img{
+    height: 37px;
+    width: 37px;
+}
+.smart-tv{
+    font-size: 1.2rem;
+}
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.centrer p{
+    text-align: center;
+}
+.section3{
+    margin-top: 20vh ;
+    margin-bottom: 40vh;
+}
+
+.recto{
+    height: 140px;
+    width: 24%;
+    border: 2px solid black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3rem;
+
+}
+.recto img{
+    height: 53px;
+    width: 53px;
+    margin-bottom: 1rem;
+}
+.restaurant{
+    background: #000;
+    color: #E79434;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.resto{
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.precis{
+    width: 43%;
+}
+.poppins{
+    font-family: 'Lexend', sans-serif;
+    font-size: 2rem;
+}
+.lorem-text{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.658);
+}
+.lorem-text ul{
+    list-style: none;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.lorem-text ul li::before{
+    content: "";
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E79434;
+    font-weight: bolder;
+    display: inline-block;
+    width: 8px;
+    margin-right: 10px;
+}
+.btnblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 28%;
+    margin-top: 2rem;
+}
+.recto2{
+    height: 45px;
+    width: 19%;
+    border: 2px solid black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3rem;
+}
+.services2{
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.restaurant2{
+    background: #000;
+    color: #ffffff;
+}
+.detail{
+    margin-top: 1.6rem;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    width: 350px;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.detail p{
+    margin-bottom: 1.5rem;
+}
+
+.offre{
+    height: 500px;
+    width: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro p{
+    width: 400px;
+}
+.offre-chambre{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 4rem;
+}
+.section5{
+    background-color: #F6F5F1;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 17rem;
+}
+.footer{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+}
+.Left{
+    width: 385px;
+    height: 254px;
+    position: relative;
+    margin-top: 5rem;
+    
+}
+.fille{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.hoe{
+    position: absolute;
+    left: 0%;
+    bottom: -11%;
+}
+.hoe1{
+    position: absolute;
+    left: -91%;
+    top: 42%;
+}
+.left{
+    margin-top: 3rem;
+}
+.Content2 h2{
+    font-size: 4rem;
+    margin-bottom: 7.5rem;
+    margin-top: 6%;
+}
+.Content2 p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    
+}
+.detail2{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.detail2 p{
+    margin-bottom: 1.5rem;
+    width: 480px;
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+}
+.nom{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+}
+.bottom2{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom2 img{
+    height: 17px;
+    width: 17px;
+    margin-right: 7px;
+    margin-top: 32px;
+}
+.gauche{
+    height: 26;
+    width: 38px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3rem;
+}
+.droite{
+    height: 26px;
+    width: 38px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.3rem;
+    background-color: #000;
+    margin-left: 7px;
+}
+.changer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    width: 81%;
+}
+.droite img{
+    height: 25px;
+    width: 30px;
+}
+.gauche img{
+    height: 25px;
+    width: 30px;
+    transform: rotate(180deg);
+}
+.back{
+    width: 50%;
+    min-height: 350px;
+    background: #000;
+    padding-left: 7rem;
+    padding-top: 6rem;
+}
+.cercle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cercle2 img{
+    height: 25px;
+    width: 25px;
+}
+.cercle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cercle3 img{
+    height: 25px;
+    width: 25px;
+}
+.social-media{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.liens{
+    display: flex;
+    color: #a1a1a1;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.liens ul{
+    list-style-type: none;
+    line-height: 3rem;
+    font-size: 1.1rem;
+    font-family: 'Lexend', sans-serif;
+    
+
+}
+.liens span{
+    font-weight: bold;
+    color: #ffffff;
+}
+footer{
+    background-color: #F6F5F1 ;
+    display: flex;
+}
+.formulaire{
+    padding-left: 4rem;
+    width: 50%;
+}
+.formule h2{
+    font-size: 3.5rem;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.formule p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 75px;
+    margin-top: 1rem;
+}
+.recto3{
+    height: 45px;
+    width: 48%;
+    border: 2px solid black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.1rem;
+}
+.recto3 input{
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Lexend', sans-serif;
+}
+.recto3 input::placeholder{
+    font-size: 1.1rem;
+    font-family: 'Lexend', sans-serif;
+    color: black;
+}
+.changer .gauche {
+    transform: rotate(180deg);
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.groupe1{
+    right: 2%;
+    top: 715%;
+    position: absolute;
+    width: 210px;
+    height: 150px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .10;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+}
+.groupe2{
+    right: 2%;
+    top: 450%;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .10;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+}
+.groupe3{
+    left: 0%;
+    top: 480%;
+    position: absolute;
+    width: 190px;
+    height: 110px;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+    opacity: .25;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+}
+.groupe4{
+    left: 2%;
+    top: 315%;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .10;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+}
+@media only screen and ( max-width: 600px){
+   
+    nav ul{
+        display: flex;
+        width: 38rem;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    nav img {
+        height: ;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.4rem;
+    }
+    .onglet{
+        width: 100px
+    }
+    nav a:hover{
+        font-weight: 600;
+    }
+    .pointer{
+        cursor: pointer;
+    }
+    nav .fa-bars {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .btn{
+        width: 100px;
+        height: 30px;
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Lexend', sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+    
+    }
+    .btn:hover{
+        width: 110px;
+        height: 50px;
+        border: 2px solid black;
+        background: transparent;
+        border: 2px solid;
+        color: black;
+        cursor: pointer;
+    
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 60px 0 60px;
+        height: 10vh;
+        width: 50%;
+    }
+    .section1{
+        position: relative;
+        margin-top: 2.5rem;
+        height: 90vh;
+        width: 100vw;
+    }
+    .texte-box{
+        position: absolute;
+        top: -5;
+        width: 40%;
+        height: 115px;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4%;
+        justify-content: end;
+       
+        opacity: 89%;
+    }
+    .texte-box span{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 1.9rem;
+        margin-left: 2rem;
+    } 
+    .texte-box button{
+        margin-left: 2rem;
+        top: -9%;
+    }
+    .head{
+        position: absolute;
+        right: 0;
+        bottom: 69%;
+        background-image: url(image\ 1.png);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+    }
+    .box-date{
+        width: 270px;
+        height: 50px;
+        background: white;
+        opacity: 89%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40%;
+        
+    }
+    .date{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4px;
+        margin-left: 8px;
+        font-family: 'Lexend', sans-serif;
+        position: relative;
+        
+    }
+    .pos{
+        position: absolute;
+        top:50%;
+        font-size: 14px;
+    
+    }
+    
+    .box label{
+        display: flex;
+        width: 160px;
+        height: 40px;
+        justify-content: space-between;
+    }
+    
+    .box label img{
+        height: 30px;
+        width: 30px;
+    }
+    .date input{
+        border: 1px solid white;
+        cursor: default; 
+        outline: none; 
+        width: 120px; 
+    
+    }
+    .box{
+        width: 210px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2{
+        background: #FBF7F4;
+        height: 150vh;
+        width: 100%;
+        margin-top: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lit-box{
+        display: flex;
+        justify-content: space-between;
+        width: ;
+        flex-direction: column;
+    }
+    .box-left{
+        height: 797px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lit-box .box-left .chambre{
+        height: 370px;
+        width: 563px;
+        position: relative;
+    }
+    .discount{
+        position: absolute;
+        height: 190px;
+        width: 275px;
+        background-color: rgba(255, 255, 255, 0.808);
+        bottom: 0;
+        border-left: 5px solid #E79434;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+    .discount span{
+        font-family: 'Lexend', sans-serif;
+        width: 226px;
+    }
+    .discount span strong{
+        font-size: 3rem;
+    }
+    .box-right{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text{
+        width: 100%;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+   
+    .content-text h2{
+        font-size: 3.7rem;
+    }
+    .content-text p{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .content-text2 h2{
+        font-size: 3.9rem;
+        margin-bottom: 1rem;  
+    }
+    .content-text2 p{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .items{
+        width: 99%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-box button{
+        height: 60px;
+        width: 130px;
+        background-color: transparent;
+        border: 2px solid black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.1em;
+    }
+    .btn-box button:hover{
+        background: black;
+        color: white;
+        border: none;
+        font-family: 'Lexend', sans-serif;
+        font-weight: normal;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+    .content-box {
+        font-family: 'Lexend', sans-serif;
+    }
+    .content-precis {
+        font-family: 'Lexend', sans-serif;
+    }
+    .content-precis p {
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .items-box{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+    .smart-tv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smart-tv span{
+        margin-top: 1rem;
+        font-family: 'Lexend', sans-serif;
+    
+    }
+    .cercle{
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        border: 3px solid #E79434;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rotation{
+        transform: rotate(45deg);
+    }
+    .cercle img{
+        height: 37px;
+        width: 37px;
+    }
+    .smart-tv{
+        font-size: 1.2rem;
+    }
+    .btn-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .centrer p{
+        text-align: center;
+    }
+    .section3{
+        width: 100vw;
+        margin-top: 20vh ;
+        margin-bottom: 40vh;
+    }
+    .section3 .content-text2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .recto{
+        height: 140px;
+        width: 24%;
+        border: 2px solid black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+    
+    }
+    .recto img{
+        height: 53px;
+        width: 53px;
+        margin-bottom: 1rem;
+    }
+    .restaurant{
+        background: #000;
+        color: #E79434;
+    }
+    .services{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .resto{
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .precis{
+        width: 43%;
+    }
+    .poppins{
+        font-family: 'Lexend', sans-serif;
+        font-size: 2rem;
+    }
+    .lorem-text{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        font-family: 'Lexend', sans-serif;
+        margin-top: 5%;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .lorem-text ul{
+        list-style: none;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+    .lorem-text ul li::before{
+        content: "";
+        height: 8px;
+        border-radius: 50%;
+        background-color: #E79434;
+        font-weight: bolder;
+        display: inline-block;
+        width: 8px;
+        margin-right: 10px;
+    }
+    .btnblock{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 28%;
+        margin-top: 2rem;
+    }
+    .section4 {
+        width: 100vw;
+    }
+    .content-text {
+        width: 100%;
+    }
+    .recto2{
+        height: 45px;
+        width: 19%;
+        border: 2px solid black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+    }
+    .services2{
+        display: flex;
+        justify-content: space-between;
+        width: 62%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .restaurant2{
+        background: #000;
+        color: #ffffff;
+    }
+    .detail{
+        margin-top: 1.6rem;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        width: 350px;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .detail p{
+        margin-bottom: 1.5rem;
+    }
+    
+    .offre{
+        height: 500px;
+        width: 386px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .intro p{
+        width: 400px;
+    }
+    .offre-chambre{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .section5{
+        background-color: #F6F5F1;
+        width: 100vw;
+        min-height: 100vh;
+        margin-top: 17rem;
+    }
+    .footer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .Left{
+        width: 385px;
+        height: 254px;
+        position: relative;
+        margin-top: 5rem;
+        
+    }
+    .bas {
+        width: 100vw;
+    }
+    .fille{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+    }
+    .hoe{
+        position: absolute;
+        left: 0%;
+        bottom: -11%;
+    }
+    .hoe1{
+        position: absolute;
+        left: -91%;
+        top: 42%;
+    }
+    .left{
+        margin-top: 3rem;
+    }
+    .Content2 h2{
+        font-size: 4rem;
+        margin-bottom: 7.5rem;
+        margin-top: 6%;
+    }
+    .Content2 p{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        
+    }
+    .detail2{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .detail2 p{
+        margin-bottom: 1.5rem;
+        width: 480px;
+        line-height: 2.2rem;
+        font-size: 1.3rem;
+    }
+    .nom{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 83%;
+    }
+    .bottom2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bottom2 img{
+        height: 17px;
+        width: 17px;
+        margin-right: 7px;
+        margin-top: 32px;
+    }
+    .gauche{
+        height: 26;
+        width: 38px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+    }
+    .droite{
+        height: 26px;
+        width: 38px;
+        border: 2px solid rgba(0, 0, 0, 0.322);
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.3rem;
+        background-color: #000;
+        margin-left: 7px;
+    }
+    .changer{
+        margin-top: 20px;
+        display: flex;
+        justify-content: end;
+        width: 81%;
+    }
+    .droite img{
+        height: 25px;
+        width: 30px;
+    }
+    .gauche img{
+        height: 25px;
+        width: 30px;
+        transform: rotate(180deg);
+    }
+    .back{
+        width: 100%;
+        min-height: 350px;
+        background: #000;
+        padding-left: 7rem;
+        padding-top: 6rem;
+    }
+    .cercle2{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cercle2 img{
+        height: 25px;
+        width: 25px;
+    }
+    .cercle3{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        border: 3px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cercle3 img{
+        height: 25px;
+        width: 25px;
+    }
+    .social-media{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .liens{
+        display: flex;
+        color: #a1a1a1;
+        list-style-type: none;
+        width: 550px;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+    .liens ul{
+        list-style-type: none;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        font-family: 'Lexend', sans-serif;
+        
+    
+    }
+    .liens span{
+        font-weight: bold;
+        color: #ffffff;
+    }
+    bas{
+        background-color: #F6F5F1 ;
+        display: flex;
+    }
+    .formulaire{
+        padding-left: 4rem;
+        width: 100%;
+    }
+    .formule h2{
+        font-size: 3.5rem;
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+    .formule p{
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 75px;
+        margin-top: 1rem;
+    }
+    .recto3{
+        height: 45px;
+        width: 48%;
+        border: 2px solid black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1.1rem;
+    }
+    .recto3 input{
+        width: 95%;
+        height: 95%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Lexend', sans-serif;
+    }
+    .recto3 input::placeholder{
+        font-size: 1.1rem;
+        font-family: 'Lexend', sans-serif;
+        color: black;
+    }
+    .changer .gauche {
+        transform: rotate(180deg);
+    }
+    .mt-2{
+        margin-top: 2rem;
+    }
+    .groupe1{
+        right: 2%;
+        top: 715%;
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .groupe2{
+        right: 2%;
+        top: 450%;
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .groupe3{
+        left: 0%;
+        top: 480%;
+        position: absolute;
+        width: 100%;
+        height: 110px;
+        transform: rotate(-45deg);
+        border-radius: 50px;
+        opacity: .25;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+    .groupe4{
+        left: 2%;
+        top: 315%;
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        transform: rotate(-30deg);
+        border-radius: 50px;
+        opacity: .10;
+        filter: blur(38px);
+        background: rgb(255,248,90);
+        background: radial-gradient( rgb(90, 255, 255) 0%, rgb(112, 198, 224) 80%, rgba(255,2,169,0.9547991071428571) 45%);
+    }
+}
+
